@@ -1,0 +1,40 @@
+*{
+    padding:0 5px 0 5px;;
+}
+body{
+    background-color:rgb(100, 100, 116);
+    color:white;
+    font-family:Times, Arial;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header nav ul{
+    display:flex;
+    justify-content:start;
+    gap:20px;
+    list-style:none;
+    font-size:20px;
+}
+.left{
+    font-size:27px;
+}
+.info{
+    font-size:25px;
+}
+.intro{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    flex-direction:column;
+    text-align:center;
+    border:5px solid pink;
+}
+.resume:hover{
+    background-color:rgb(244, 29, 244);
+    color:black;
+}
